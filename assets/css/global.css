@@ -27,11 +27,10 @@ a:hover {
 }
 
 body {
-    background-color: black;
     color: white;
 }
 
-body::before,
+
 body::after {
     content: '';
     background-image: linear-gradient(to bottom,#7072d6, black, black, #7072d6);
@@ -44,12 +43,4 @@ body::after {
     width: 140vw;
     height: 100vh;
     z-index: -1;
-}
-
-body::after {
-    top: auto; 
-    left: auto;
-    bottom: 0; 
-    right: 0; 
-    transform: rotate(180deg); 
 }

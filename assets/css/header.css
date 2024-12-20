@@ -55,25 +55,25 @@ header::before {
     margin-right: .5rem;
 }
 
-.information #job::before {
+.information .job::before {
     background-image: url(/assets/img/icons/job.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.information #location::before {
+.information .location::before {
     background-image: url(/assets/img/icons/location.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.information #phone::before {
+.information .phone::before {
     background-image: url(/assets/img/icons/phone.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.information #email::before {
+.information .email::before {
     background-image: url(/assets/img/icons/email.svg);
     background-repeat: no-repeat;
     background-size: contain;

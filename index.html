@@ -30,17 +30,17 @@
 <body>
     <main class="main">
         <header class="header">
-            <img  class="photo"src="assets/img/01.jpg" alt="Foto de Perfil">
+            <img  class="photo"src="assets/img/01.jpg" alt="Foto de Perfil" class="profile.photo">
 
-            <h1 class="title">Olá,<br> eu sou o Tiago Neves</h1>
+            <h1 class="title">Olá,<br>  eu sou o <span class="profile.name">Tiago Neves</span> </h1>
             
             <div class="information">
-                <p id="job">Junior JavaScript Developer</p>
-                <p id="location">Caruaru - PE</p>
-                <p id="phone">
+                <p class="job" class="profile.job">Junior JavaScript Developer</p>
+                <p class="location" class="profile.location">Caruaru - PE</p>
+                <p class="phone">
                     <a href="tel:(81) 99247-2304" id="profile.phone">(81) 99247-2304</a>
                 </p>
-                <p id="email">
+                <p class="email">
                     <a href="mailto: c.tiagopedro@hotmail.com" id="profile.email">c.tiagopedro@hotmail.com</a>
                 </p>
             </div>
@@ -110,7 +110,7 @@
             </button>
 
             <div class="content">
-                <ul class="portifolio">
+                <ul class="portifolio" class="education" id="profile.education">
                     <li>
                         <h3 class="title">Ensino Superior Completo:</h3>
                         <ol>&#8226 Bacharel em Engenharia Civil no Centro Universitário UNIFAVIP – Wyden Educacional com conclusão em 2017.</ol>
@@ -161,7 +161,7 @@
             </button>
 
             <div class="content">
-                <ul class="experience">
+                <ul class="experience" id="profile.experience">
                     <li>
                         <h3 class="title">Tiago & Neves Combustíveis LTDA</h3>
                         <p class="period"> Mar 2016 -  Set 2020</p>
