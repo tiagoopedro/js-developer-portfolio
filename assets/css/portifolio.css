@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.portfolio {
+.portifolio {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -10,14 +10,14 @@
     list-style: none;
 }
 
-.portfolio li {
+.portifolio li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin: 1rem 0;width: 100%;
 }
 
-.portfolio li .title {
+.portifolio li .title {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,7 +27,7 @@
     margin-bottom: .5rem;
 }
 
-.portfolio li .title.github::before {
+.portifolio li .title.github::before {
     content: "";
     display: inline-block;
     width: 1rem;

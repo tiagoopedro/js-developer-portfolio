@@ -28,3 +28,8 @@
     background-image: url('/assets/img/icons/check.svg');
     margin-right: .5rem;
 }
+
+ ol {
+    text-align: justify;
+    line-height: 2rem;
+}
