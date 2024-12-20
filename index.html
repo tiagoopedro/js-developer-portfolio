@@ -19,77 +19,123 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
     <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/portifolio.css">
     <link rel="stylesheet" href="assets/css/experience.css">
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/media-querry.css">
 </head>
-
 <body>
     <main class="main">
         <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
+            <img  class="photo"src="assets/img/01.jpg" alt="Foto de Perfil">
 
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
-
+            <h1 class="title">Olá,<br> eu sou o Tiago Neves</h1>
+            
             <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
+                <p id="job">Junior JavaScript Developer</p>
+                <p id="location">Caruaru - PE</p>
+                <p id="phone">
+                    <a href="tel:(81) 99247-2304" id="profile.phone">(81) 99247-2304</a>
                 </p>
-                <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                <p id="email">
+                    <a href="mailto: c.tiagopedro@hotmail.com" id="profile.email">c.tiagopedro@hotmail.com</a>
                 </p>
             </div>
         </header>
 
-        <section class="acordeon">
+        <section  class="acordeon">
             <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
-
+            
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
+                        <h3>Habilidades Profissionais:</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/tools/js.webp" alt="js">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/css.webp" alt="css">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/html.webp" alt="html">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/react.svg" alt="react">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/nodejs.svg" alt="nodejs">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/git.svg" alt="github">
+                            </li>                            
                         </ul>
                     </section>
 
                     <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
+                        <h3>Habilidades Pessoais:</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Facilidade de comunicação</li>
+                            <li>Organização</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Flexibilidade</li>
                         </ul>
                     </section>
                 </div>
             </div>
         </section>
-
+        
         <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Idiomas</h2>
             </button>
 
             <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês (Avançado)</li>
                 </ul>
             </div>
         </section>
 
         <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>Portfólio</h2>
+                <h2>Educação</h2>
+            </button>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <h3>Bacharel em Engenharia Civil</h3>
+                        <p>Unifavip 2012 - 2017</p>
+                    </li>
+                    <li>
+                        <h3>Curso de Inglês</h3>
+                        <p>Senac - Caruaru</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portifólio</h2>
             </button>
 
             <div class="content">
                 <ul class="portfolio" id="profile.portfolio">
+                    <li>
+                        <h3 class="title github"> Curso Ministrado na DIO para a criação de uma Pokedex</h3>
+                        <a href="https://github.com/tiagoopedro/js-developer-pokedex" target="_blank">https://github.com/tiagoopedro/js-developer-pokedex</a>
+                    </li>
+                    <li>
+                        <h3 class="title github"> Curso Ministrado na DIO para a criação de uma página de portifólio</h3>
+                        <a href="https://github.com/tiagoopedro/js-developer-portfolio" target="_blank">https://github.com/tiagoopedro/js-developer-portfolio</a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -100,7 +146,22 @@
             </button>
 
             <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title"> Criando um app de lembrete</h3>
+                        <p class="period"> jan 2020 - current</p>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae hic voluptatem recusandae rerum officiis illum ipsam error? Explicabo, in ad voluptas tenetur accusamus sit fugiat optio totam alias illum sunt?</p>
+                    </li>
+                    <li>
+                        <h3 class="title"> Criando um app de lembrete</h3>
+                        <p class="period"> jan 2020 - current</p>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae hic voluptatem recusandae rerum officiis illum ipsam error? Explicabo, in ad voluptas tenetur accusamus sit fugiat optio totam alias illum sunt?</p>
+                    </li>
+                    <li>
+                        <h3 class="title"> Criando um app de lembrete</h3>
+                        <p class="period"> jan 2020 - current</p>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae hic voluptatem recusandae rerum officiis illum ipsam error? Explicabo, in ad voluptas tenetur accusamus sit fugiat optio totam alias illum sunt?</p>
+                    </li>
                 </ul>
             </div>
         </section>
