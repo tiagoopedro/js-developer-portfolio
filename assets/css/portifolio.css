@@ -17,9 +17,10 @@
     margin: 1rem 0;width: 100%;
 }
 
-.portifolio li p a{
-    font-size: 0.7rem;
-    color: black;
+#certification{
+    font-size: 0.8rem;
+    font-style: italic;
+    
 }
 
 .portifolio li .title {
