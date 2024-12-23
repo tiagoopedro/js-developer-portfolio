@@ -7,7 +7,7 @@
     position: relative; 
 }
 
-header::before {
+/*header::before {
     content: '';
     display: inline-block; 
     position: absolute; 
@@ -19,7 +19,7 @@ header::before {
     background-image: url(/assets/img/icons/header.svg);
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 .photo {
     width: 200px;
