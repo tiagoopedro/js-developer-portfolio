@@ -37,6 +37,18 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
+function updateEducation(profileData) {
+    const education = document.getElementById('profile.education')
+    education.innerHTML = profileData.education.map(degree => {
+        return `
+             <li>
+                <h3 class="title">${degree.name}</h3>
+                <ol>${degree.description}</ol>
+            </li>
+        `
+    }).join('')
+}
+
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
     portfolio.innerHTML = profileData.portfolio.map(project => {
