@@ -27,70 +27,53 @@
 
     <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 </head>
+
 <body>
     <main class="main">
-        <header class="header">
-            <img  class="photo"src="assets/img/01.png" alt="Foto de Perfil" class="profile.photo">
+       <header class="header">
+            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
 
-            <h1 class="title">Olá,<br>  eu sou o <span class="profile.name">Tiago Neves</span> </h1>
-            
+            <h1 class="title">
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
+            </h1>
+
             <div class="information">
-                <p class="job" class="profile.job">Junior JavaScript Developer</p>
-                <p class="location" class="profile.location">Caruaru - PE</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:(81) 99247-2304" id="profile.phone">(81) 99247-2304</a>
+                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto: c.tiagopedro@hotmail.com" id="profile.email">c.tiagopedro@hotmail.com</a>
+                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
                 </p>
             </div>
         </header>
 
-        <section  class="acordeon">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
-            
+
             <div class="content">
                 <div class="skills">
-                    <section class="tools" id="hardSkills">
-                        <h3>Habilidades Profissionais:</h3>
-                        <ul>
-                            <li>
-                                <img src="/data/imgs/js.png" alt="js" title="JavaScript">
-                            </li>
-                            <li>
-                                <img src="/data/imgs/css.png" alt="css" title="Css3">
-                            </li>
-                            <li>
-                                <img src="/data/imgs/html.png" alt="html" title="Html5">
-                            </li>
-                            <li>
-                                <img src="/data/imgs/react.png" alt="react" title="React">
-                            </li>
-                            <li>
-                                <img src="/data/imgs/nodejs.png" alt="nodejs" title="NodeJs">
-                            </li>
-                            <li>
-                                <img src="/data/imgs/github.png" alt="github" title="Github">
-                            </li>                            
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
-                    </section>
+                    </section> 
 
-                    <section class="personal" id="softSkills">
-                        <h3>Habilidades Pessoais:</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Facilidade de comunicação</li>
-                            <li>Organização</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Flexibilidade</li>
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
             </div>
         </section>
-        
+
         <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Idiomas</h2>
@@ -98,8 +81,7 @@
 
             <div class="content">
                 <ul class="languages" id="profile.languages">
-                    <li>Português</li>
-                    <li>Inglês (Avançado)</li>
+                    <li>Carregando...</li>
                 </ul>
             </div>
         </section>
@@ -111,46 +93,18 @@
 
             <div class="content">
                 <ul class="portifolio" class="education" id="profile.education">
-                    <li>
-                        <h3 class="title">Ensino Superior Completo:</h3>
-                        <ol>&#8226 Bacharel em Engenharia Civil no Centro Universitário UNIFAVIP – Wyden Educacional com conclusão em 2017.</ol>
-                    </li>
-                    <li>
-                        <h3 class="title">Curso de Idiomas:</h3>
-                        <ol>&#8226 Curso de Língua Inglesa – SENAC – Curso Extensivo de Inglês, com 06 módulos com 180 horas cada, em Caruaru/PE, com conclusão em 2019.2. Nível avançado.</ol>
-                    </li>
-                    <li>
-                        <h3 class="title">Curso em Vídeo:</h3>
-                        <ol>&#8226 Formação Html5 e Css3 - Curso em Vídeo, curso com 5 módulos e carga horária de 200 horas.</ol> <br>
-                        <ol>&#8226 Curso de JavaScript - Curso em Vídeo, com carga horária de 40 horas.</ol>
-                    </li>
-                    <li>
-                        <h3 class="title">Cursos da Udemy:</h3>
-                        <ol>&#8226 Curso de JavaScript e TypeScript do básico ao avançado, com carga horária de 146 horas.</ol> 
-                    </li>
-                    <li>
-                        <h3 class="title">Cursos da DIO:</h3>
-                        <ol>&#8226 Formação JavaScript Developer - DIO, com carga horária de 39 horas.</ol>
-                    </li>
                 </ul>
             </div>
         </section>
 
+
         <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>Portifólio</h2>
+                <h2>Portfólio</h2>
             </button>
 
             <div class="content">
-                <ul class="portifolio" id="profile.portfolio">
-                    <li>
-                        <h3 class="title github"> Curso Ministrado na DIO para a criação de uma Pokedex</h3>
-                        <a href="https://github.com/tiagoopedro/js-developer-pokedex" target="_blank">https://github.com/tiagoopedro/js-developer-pokedex</a>
-                    </li>
-                    <li>
-                        <h3 class="title github"> Curso Ministrado na DIO para a criação de uma página de portifólio</h3>
-                        <a href="https://github.com/tiagoopedro/js-developer-portfolio" target="_blank">https://github.com/tiagoopedro/js-developer-portfolio</a>
-                    </li>
+                <ul class="portfolio" id="profile.portfolio">
                 </ul>
             </div>
         </section>
@@ -162,26 +116,11 @@
 
             <div class="content">
                 <ul class="experience" id="profile.professionalExperience">
-                    <li>
-                        <h3 class="title">Tiago & Neves Combustíveis LTDA</h3>
-                        <p class="period"> Mar 2016 -  Set 2020</p>
-                        <p> Fui sócio e gerente da empresa Tiago & Neves Combustíveis LTDA por 4 anos. </p>
-                    </li>
-                    <li>
-                        <h3 class="title">Engenheiro Civil</h3>
-                        <p class="period"> Jan 2018 - Presente</p>
-                        <p> Atuo como engenheiro civil autônomo desde de 2018.</p>
-                    </li>
-                    <li>
-                        <h3 class="title">Edificações</h3>
-                        <p class="period"> Mar 2023 - Jun 2023</p>
-                        <p>Atuei por 3 meses na construção de edifícios residenciais nas cidades de Kitchener, Toronto e Pickering no Canadá.  </p>
-                    </li>
                 </ul>
             </div>
         </section>
 
-        <footer> 
+        <footer>
             <a href="https://www.dio.me/" target="_blank">
                 <img src="assets/img/dio.svg" alt="DIO">
             </a>
