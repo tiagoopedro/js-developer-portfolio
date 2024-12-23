@@ -50,7 +50,7 @@ function updateEducation(profileData) {
 }
 
 function updatePortifolio(profileData) {
-    const portifolio = document.getElementById('profile.portfolio')
+    const portifolio = document.getElementById('profile.portifolio')
     portifolio.innerHTML = profileData.portfolio.map(project => {
         return `
             <li>

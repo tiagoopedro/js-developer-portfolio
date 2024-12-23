@@ -26,6 +26,12 @@ a:hover {
     text-decoration: underline;
 }
 
+ol {
+    text-align: justify;
+    line-height: 2rem;
+    padding-right: 3rem;
+}
+
 body {
     color: white;
 }
