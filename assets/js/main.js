@@ -51,7 +51,7 @@ function updateEducation(profileData) {
 
 function updatePortifolio(profileData) {
     const portifolio = document.getElementById('profile.portifolio')
-    portifolio.innerHTML = profileData.portfolio.map(project => {
+    portifolio.innerHTML = profileData.portifolio.map(project => {
         return `
             <li>
                 <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
@@ -68,7 +68,7 @@ function updateProfessionalExperience(profileData) {
         return `
             <li>
                 <h3 class="title">${experience.name}</h3>
-                <p class="period">${experience.period}</p>
+                <p> class="period">${experience.period}</p>
                 <p>${experience.description}</p>
             </li>
         `
