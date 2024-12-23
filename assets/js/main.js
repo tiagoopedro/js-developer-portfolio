@@ -50,8 +50,8 @@ function updateEducation(profileData) {
 }
 
 function updatePortfolio(profileData) {
-    const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(project => {
+    const portifolio = document.getElementById('profile.portfolio')
+    portifolio.innerHTML = profileData.portfolio.map(project => {
         return `
             <li>
                 <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>

@@ -62,7 +62,7 @@
       "description": "&#8226 Formação JavaScript Developer - DIO, com carga horária de 39 horas."
     }
   ],
-  "portfolio": [
+  "portifolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
       "url": "https://github.com/tiagoopedro/js-developer-pokedex",
@@ -70,7 +70,7 @@
       "certification": "https://hermes.dio.me/certificates/6TNPL8RA.pdf"
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "name": "Curso Ministrado na DIO para a criação de uma página de portifolio",
       "url": "https://github.com/tiagoopedro/js-developer-portfolio",
       "github": true,
       "certification": "https://hermes.dio.me/certificates/GDQBSHXB.pdf"
