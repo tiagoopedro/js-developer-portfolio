@@ -66,12 +66,14 @@
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
       "url": "https://github.com/tiagoopedro/js-developer-pokedex",
-      "github": true
+      "github": true,
+      "certification": "https://hermes.dio.me/certificates/6TNPL8RA.pdf"
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
       "url": "https://github.com/tiagoopedro/js-developer-portfolio",
-      "github": true
+      "github": true,
+      "certification": "https://hermes.dio.me/certificates/GDQBSHXB.pdf"
     }
   ],
   "professionalExperience": [

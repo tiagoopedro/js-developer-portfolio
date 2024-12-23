@@ -17,6 +17,11 @@
     margin: 1rem 0;width: 100%;
 }
 
+.portifolio li p a{
+    font-size: 0.7rem;
+    color: black;
+}
+
 .portifolio li .title {
     display: flex;
     flex-direction: row;
