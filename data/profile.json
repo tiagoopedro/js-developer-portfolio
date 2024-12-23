@@ -1,39 +1,39 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Tiago Neves",
+  "photo": "https://github.com/tiagoopedro/js-developer-portfolio/blob/main/assets/img/01.jpg",
+  "job": "Junior JavaScript Developer",
+  "location": "Caruaru - PE",
+  "phone": "(81) 9247-2304",
+  "email": "c.tiagopedro@hotmail.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Js",
+        "logo": "https://github.com/tiagoopedro/js-developer-portfolio/blob/main/data/imgs/js.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "Css",
+        "logo": "https://github.com/tiagoopedro/js-developer-portfolio/blob/main/data/imgs/css.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "Html",
+        "logo": "https://github.com/tiagoopedro/js-developer-portfolio/blob/main/data/imgs/html.png"
       },
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "Github",
+        "logo": "https://github.com/tiagoopedro/js-developer-portfolio/blob/main/data/imgs/github.png"
       }
     ],
     "softSkills": [
-      "Empatia",
+      "Facilidade de comunicação",
       "Liderança",
       "Trabalho em equipe",
       "Flexibilidade",
@@ -42,37 +42,52 @@
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (Avançado)"
+  ],
+  "education": [
+    { "name": "Ensino Superior Completo:",
+      "description": "&#8226 Bacharel em Engenharia Civil no Centro Universitário UNIFAVIP – Wyden Educacional com conclusão em 2017."
+    },
+    { "name":"Curso de Idiomas:",
+      "description": "&#8226 Curso de Língua Inglesa – SENAC – Curso Extensivo de Inglês, com 06 módulos com 180 horas cada, em Caruaru/PE, com conclusão em 2019.2. Nível avançado."
+    },
+    { "name":"Curso em Vídeo:",
+      "description": "&#8226 Formação Html5 e Css3 - Curso em Vídeo, curso com 5 módulos e carga horária de 200 horas. &#8226 Curso de JavaScript - Curso em Vídeo, com carga horária de 40 horas."
+    },
+    { "name":"Cursos da Udemy:",
+      "description": "&#8226 Curso de JavaScript e TypeScript do básico ao avançado, com carga horária de 146 horas."
+    },
+    { "name":"Cursos da DIO:",
+      "description": "&#8226 Formação JavaScript Developer - DIO, com carga horária de 39 horas."
+    }
   ],
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "url": "https://github.com/tiagoopedro/js-developer-pokedex",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://github.com/tiagoopedro/js-developer-portfolio",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Tiago & Neves Combustíveis LTDA",
+      "period": "Mar 2016 -  Set 2020",
+      "description": "Fui sócio e gerente da empresa Tiago & Neves Combustíveis LTDA por 4 anos."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Engenheiro Civil",
+      "period": "Jan 2018 - Presente",
+      "description": "Atuo como engenheiro civil autônomo desde de 2018."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Edificações",
+      "period": "Mar 2023 - Jun 2023",
+      "description": "Atuei por 3 meses na construção de edifícios residenciais nas cidades de Kitchener, Toronto e Pickering no Canadá."
     }
   ]
 }
