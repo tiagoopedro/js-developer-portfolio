@@ -8,15 +8,15 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Js",
+        "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/tiagoopedro/js-developer-portfolio/blob/main/data/imgs/js.png"
       },
       {
-        "name": "Css",
+        "name": "Css3",
         "logo": "https://raw.githubusercontent.com/tiagoopedro/js-developer-portfolio/blob/main/data/imgs/css.png"
       },
       {
-        "name": "Html",
+        "name": "Html5",
         "logo": "https://raw.githubusercontent.com/tiagoopedro/js-developer-portfolio/blob/main/data/imgs/html.png"
       },
       {
