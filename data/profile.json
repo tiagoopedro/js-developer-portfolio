@@ -52,7 +52,8 @@
       "description": "&#8226 Curso de Língua Inglesa – SENAC – Curso Extensivo de Inglês, com 06 módulos com 180 horas cada, em Caruaru/PE, com conclusão em 2019.2. Nível avançado."
     },
     { "name":"Curso em Vídeo:",
-      "description": "&#8226 Formação Html5 e Css3 - Curso em Vídeo, curso com 5 módulos e carga horária de 200 horas. &#8226 Curso de JavaScript - Curso em Vídeo, com carga horária de 40 horas."
+      "description": "&#8226 Formação Html5 e Css3 - Curso em Vídeo, curso com 5 módulos e carga horária de 200 horas. Curso de JavaScript - Curso em Vídeo, com carga horária de 40 horas."
+       
     },
     { "name":"Cursos da Udemy:",
       "description": "&#8226 Curso de JavaScript e TypeScript do básico ao avançado, com carga horária de 146 horas."
