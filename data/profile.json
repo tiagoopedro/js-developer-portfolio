@@ -66,7 +66,7 @@
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
       "url": "https://github.com/tiagoopedro/js-developer-pokedex",
-      "github": "https://raw.githubusercontent.com/tiagoopedro/js-developer-portfolio/main/data/imgs/github.png",
+      "github": true,
       "certification": "https://hermes.dio.me/certificates/6TNPL8RA.pdf"
     },
     {
