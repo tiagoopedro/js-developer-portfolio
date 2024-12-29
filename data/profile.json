@@ -2,9 +2,9 @@
   "name": "Tiago Neves",
   "photo": "https://raw.githubusercontent.com/tiagoopedro/js-developer-portfolio/main/assets/img/01.png",
   "job": "Junior JavaScript Developer",
-  "location": "Caruaru - PE",
-  "phone": "(81) 99247-2304",
-  "email": "c.tiagopedro@hotmail.com",
+  "location": " PE",
+  "phone": "",
+  "email": "",
   "skills": {
     "hardSkills": [
       {
@@ -46,20 +46,7 @@
   ],
   "education": [
     { "name": "Ensino Superior Completo:",
-      "description": "&#8226 Bacharel em Engenharia Civil no Centro Universitário UNIFAVIP – Wyden Educacional com conclusão em 2017."
-    },
-    { "name":"Curso de Idiomas:",
-      "description": "&#8226 Curso de Língua Inglesa – SENAC – Curso Extensivo de Inglês, com 06 módulos com 180 horas cada, em Caruaru/PE, com conclusão em 2019.2. Nível avançado."
-    },
-    { "name":"Cursos do Estudonauta:",
-      "description": "&#8226 Formação Html5 e Css3, curso com 5 módulos e carga horária de 200 horas. </br> &#8226 Curso de JavaScript, com carga horária de 40 horas."
-       
-    },
-    { "name":"Curso da Udemy:",
-      "description": "&#8226 Curso de JavaScript e TypeScript do básico ao avançado, com carga horária de 146 horas."
-    },
-    { "name":"Cursos da DIO:",
-      "description": "&#8226 Formação JavaScript Developer - DIO, com carga horária de 39 horas."
+      "description": "&#8226 "
     }
   ],
   "portifolio": [
@@ -78,19 +65,9 @@
   ],
   "professionalExperience": [
     {
-      "name": "Tiago & Neves Combustíveis LTDA",
+      "name": "",
       "period": "Mar 2016 -  Set 2020",
-      "description": "Fui sócio e gerente da empresa Tiago & Neves Combustíveis LTDA por 4 anos."
-    },
-    {
-      "name": "Engenheiro Civil",
-      "period": "Jan 2018 - Presente",
-      "description": "Atuo como engenheiro civil autônomo desde de 2018."
-    },
-    {
-      "name": "Edificações",
-      "period": "Mar 2023 - Jun 2023",
-      "description": "Atuei por 3 meses na construção de edifícios residenciais nas cidades de Kitchener, Toronto e Pickering no Canadá."
+      "description": ""
     }
   ]
 }
