@@ -49,7 +49,7 @@ function updateEducation(profileData) {
     }).join('')
 }
 
-function updatePortifolio(profileData) {
+function updatePortfolio(profileData) {
     const portifolio = document.getElementById('profile.portifolio')
     portifolio.innerHTML = profileData.portifolio.map(project => {
         return `
@@ -82,6 +82,6 @@ function updateProfessionalExperience(profileData) {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updateEducation(profileData)
-    updatePortifolio(profileData)
+    updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
 })()
